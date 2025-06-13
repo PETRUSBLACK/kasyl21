@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link href="/src/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-gray-900 flex items-center justify-center min-h-screen px-4">
+    <div
+      class="md:flex w-full max-w-4xl bg-gray-800 rounded-lg shadow-lg overflow-hidden"
+    >
+      <!-- Left Side (Image and Text) -->
+      <div
+        style="background-image: url('/img/road.jpg')"
+        class="w-1/2 p-8 hidden md:flex flex-col justify-between text-white relative"
+      >
+        <div
+          class="absolute inset-0 bg-gradient-to-b from-purple-900 to-gray-900 opacity-50"
+        ></div>
+        <div>
+          <h1 class="text-4xl font-bold">AMU</h1>
+          <a
+            href="#"
+            class="mt-4 inline-block text-sm text-purple-300 hover:text-purple-200 transition-colors duration-300 ease-in-out"
+            >Back to website ></a
+          >
+        </div>
+        <div class="text-center">
+          <p class="text-2xl font-light">Capturing Moments,</p>
+          <p class="text-2xl font-light">Creating Memories</p>
+        </div>
+        <div class="flex justify-center space-x-2">
+          <span class="w-4 h-0.5 bg-gray-500"></span>
+          <span class="w-4 h-0.5 bg-gray-500"></span>
+          <span class="w-4 h-0.5 bg-gray-500"></span>
+        </div>
+      </div>
+
+      <!-- Right Side (Form) -->
+      <div class="md:w-1/2 p-8 text-white">
+        <h2 class="text-3xl font-bold mb-4">Log in</h2>
+        <p class="text-sm text-gray-400 mb-6">
+          Don't have an account?
+          <a
+            href="/"
+            class="text-purple-300 hover:text-purple-200 transition-colors duration-300 ease-in-out"
+            >Create account</a
+          >
+        </p>
+
+        <form>
+          <div class="mb-4">
+            <input
+              type="email"
+              placeholder="Email"
+              class="w-full p-2 bg-gray-700 border border-gray-600 rounded focus:outline-none focus:ring-2 focus:ring-purple-500"
+            />
+          </div>
+          <div class="mb-4">
+            <input
+              type="password"
+              placeholder="Enter your password"
+              class="w-full p-2 bg-gray-700 border border-gray-600 rounded focus:outline-none focus:ring-2 focus:ring-purple-500"
+            />
+          </div>
+          <div class="mb-4 flex justify-between items-center">
+            <label class="flex items-center">
+              <input type="checkbox" class="mr-2" />
+              <span class="text-sm text-gray-400">Remember me</span>
+            </label>
+            <a
+              href="/forgotten-password.html"
+              class="text-sm text-purple-300 hover:text-purple-200 transition-colors duration-300 ease-in-out"
+              >Forgot password?</a
+            >
+          </div>
+          <button
+            type="submit"
+            class="w-full bg-purple-700 hover:bg-purple-600 active:bg-purple-800 text-white p-2 rounded transition-colors duration-300 ease-in-out"
+          >
+            Log in
+          </button>
+          <div class="text-center my-4 text-gray-400">or login with</div>
+          <div class="flex justify-between">
+            <button
+              class="w-1/2 mr-2 bg-gray-700 hover:bg-gray-600 active:bg-gray-800 text-white p-2 rounded flex items-center justify-center transition-colors duration-300 ease-in-out"
+            >
+              <img
+                src="https://img.icons8.com/color/16/000000/google-logo.png"
+                alt="Google"
+                class="mr-2"
+              />
+              Google
+            </button>
+            <button
+              class="w-1/2 ml-2 bg-gray-700 hover:bg-gray-600 active:bg-gray-800 text-white p-2 rounded flex items-center justify-center transition-colors duration-300 ease-in-out"
+            >
+              <img
+                src="https://img.icons8.com/ios-filled/16/000000/mac-logo.png"
+                alt="Apple"
+                class="mr-2"
+              />
+              Apple
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
